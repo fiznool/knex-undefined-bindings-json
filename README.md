@@ -12,7 +12,7 @@ npm start
 The following error will be produced:
 
 ```
-Error: Undefined binding(s) detected for keys [] when compiling RAW query: insert into `knex_bindings_test` (`data`, `id`) values (?, ?)
+Error: Undefined binding(s) detected for keys [] when compiling RAW query: insert into `knex_bindings_test` (`data`) values (?)
     at Raw.toSQL (/Users/code/knex-undefined-bindings-json/node_modules/knex/lib/raw.js:111:13)
     at /Users/code/knex-undefined-bindings-json/node_modules/knex/lib/runner.js:30:36
     at tryCatcher (/Users/code/knex-undefined-bindings-json/node_modules/bluebird/js/release/util.js:16:23)

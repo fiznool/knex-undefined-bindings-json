@@ -7,12 +7,11 @@ const knex = require('knex')({
 
 async function main() {
   await knex.schema.createTable(TABLE_NAME, table => {
-    table.string('id').primary();
+    table.increments('id').primary();
     table.json('data');
   });
 
   const insert = knex(TABLE_NAME).insert({
-    id: '1',
     data: {
       foo: 'bar',
       baz: undefined
