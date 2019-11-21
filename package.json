@@ -1,0 +1,17 @@
+{
+  "name": "knex-undefined-bindings-json",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "DEBUG=* node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "knex": "^0.20.2",
+    "sqlite3": "^4.1.0"
+  }
+}
